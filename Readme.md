@@ -49,7 +49,7 @@ The application is a responsive movie listing website built using **React (Vite)
 
 <img width="1338" height="480" alt="image" src="https://github.com/user-attachments/assets/f257747f-31a2-4a4e-ae46-2c7183b1c91e" />
 
-<img width="1338" height="480" alt="image" src="https://github.com/user-attachments/assets/c639ad42-ebcd-4e66-80f0-58010fd15656" />
+<img width="1346" height="434" alt="image" src="https://github.com/user-attachments/assets/96be47e9-5d49-4d6d-afbc-3b2a3d89a46a" />
 
 <img width="563" height="315" alt="image" src="https://github.com/user-attachments/assets/bfb2c4b7-497e-41ee-83a4-639b1bce3ffa" />
 
