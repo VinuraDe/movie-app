@@ -1,4 +1,3 @@
-// components/atoms/Paragraph.tsx
 import React from "react";
 
 interface ParagraphProps {

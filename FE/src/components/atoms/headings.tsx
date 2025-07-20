@@ -1,4 +1,4 @@
-// components/atoms/Heading.tsx
+
 import React from "react";
 
 interface HeadingProps {
@@ -8,7 +8,7 @@ interface HeadingProps {
 
 const Heading: React.FC<HeadingProps> = ({ text, className = "" }) => {
   return (
-    <h1 className={`text-white font-bold  ${className}`}>
+    <h1 className={`text-white ${className}`}>
       {text}
     </h1>
   );

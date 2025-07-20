@@ -12,7 +12,6 @@ const Navbar: React.FC = () => {
     <nav className="bg-black text-white w-full">
       <div className=" mx-auto px-4 sm:px-6 md:px-10 lg:px-28">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="flex items-center">
@@ -24,7 +23,6 @@ const Navbar: React.FC = () => {
             </div>
           </div>
 
-          {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className=" flex items-baseline xl:space-x-8 md:space-x-3">
               <a
@@ -60,7 +58,6 @@ const Navbar: React.FC = () => {
             </div>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
@@ -76,7 +73,6 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-900">
