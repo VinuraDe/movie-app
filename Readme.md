@@ -6,7 +6,8 @@ The application is a responsive movie listing website built using **React (Vite)
 
 ## 🔗 Live Demo / Hosted Link (UI only)
 
-[[Add your live demo link here, if applicable](https://movie-app-ebeyonds.netlify.app/)]
+[Live Demo (UI only)](https://movie-app-ebeyonds.netlify.app/)
+
 
 ## 📌 Features Implemented
 
@@ -37,22 +38,25 @@ The application is a responsive movie listing website built using **React (Vite)
 
 ### 💡 Home Page
 
-![Home Page Screenshot](./screenshots/home.png)
+<img width="1890" height="880" alt="image" src="https://github.com/user-attachments/assets/526a10fd-5559-4fd4-836a-629982fcb612" />
+
 
 ### 🔍 Search & Add to Favorites
 
-![Search Screenshot](./screenshots/search.png)
+<img width="1777" height="420" alt="image" src="https://github.com/user-attachments/assets/094ac1cb-544f-42c4-92ff-31d0474662f9" />
+
+<img width="819" height="823" alt="image" src="https://github.com/user-attachments/assets/7a742b0b-e790-4b05-9331-d419e30d87e1" />
+
 
 ### 📬 Form Submission Emails
 
 #### ✅ Auto Response Email
 
-<img width="1338" height="480" alt="image" src="https://github.com/user-attachments/assets/f257747f-31a2-4a4e-ae46-2c7183b1c91e" />
+<img width="1330" height="535" alt="image" src="https://github.com/user-attachments/assets/9c82c0de-ba22-44e1-a458-bb75f79b943a" />
 
-<img width="1346" height="434" alt="image" src="https://github.com/user-attachments/assets/96be47e9-5d49-4d6d-afbc-3b2a3d89a46a" />
+<img width="1348" height="523" alt="image" src="https://github.com/user-attachments/assets/04a1b9ee-3e9e-4db5-a0bc-fd1ac06677d9" />
 
-<img width="563" height="315" alt="image" src="https://github.com/user-attachments/assets/bfb2c4b7-497e-41ee-83a4-639b1bce3ffa" />
-
+<img width="1304" height="465" alt="image" src="https://github.com/user-attachments/assets/f52ecc50-e34e-4cd2-8c5c-979466acb9b2" />
 
 
 ## 🧰 Tech Stack
@@ -70,4 +74,15 @@ The application is a responsive movie listing website built using **React (Vite)
 - **PHPMailer** (for sending emails)
 - **JSON file storage**
 
----
+## 🚀 How to Run the Project Locally
+
+### 📦 Frontend (React + Vite)
+
+```bash
+cd client
+npm install
+npm run dev
+
+
+php -S localhost:8000
+
