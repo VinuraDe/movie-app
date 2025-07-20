@@ -2,11 +2,11 @@ import { HeroImage } from "../../assets";
 
 function HomeHeroSection() {
   return (
-    <div className="bg-[#0F0F0F] w-full max-h-[620px] ">
+    <div className="bg-[#0F0F0F] w-full max-h-[620px] overflow-hidden">
       <img
         src={HeroImage}
         alt="Hero"
-        className="w-full md:max-h-[620px] max-h-[370px] sm:max-h-[460px] sm:object-cover "
+        className="w-full transition-transform duration-500 min-h-[370px] sm:min-h-[460px] md:min-h-[620px] object-cover  "
       />
     </div>
   );

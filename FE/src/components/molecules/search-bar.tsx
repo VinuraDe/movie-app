@@ -1,3 +1,4 @@
+import { Search } from "lucide-react";
 import { useShowSearch } from "../../hooks/useShowSearch";
 import type { SavedShow } from "../../utils/interfaces";
 
@@ -18,13 +19,16 @@ export default function ShowSearch({
 
   return (
     <div className="relative mb-6">
-      <input
-        type="text"
-        placeholder="Search title and add to grid"
-        className="w-full px-4 py-2 rounded bg-zinc-900 text-white border border-zinc-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-zinc-600 sm:max-w-[400px] sm:min-w-[400px]"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      />
+      <div className="relative w-full sm:max-w-[400px] sm:min-w-[400px]">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 h-5 w-5 pointer-events-none" />
+        <input
+          type="text"
+          placeholder="Search title and add to grid"
+          className="w-full pl-10 pr-4 py-2 rounded bg-zinc-900 text-white border border-zinc-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-zinc-600"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+      </div>
       {loading && (
         <div className="absolute top-full mt-1 left-1/2 transform -translate-x-1/2 w-6 h-6 border-4 border-t-transparent border-white rounded-full animate-spin sm:max-w-[400px]" />
       )}

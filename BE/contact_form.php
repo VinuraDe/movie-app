@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: https://movie-app-ebeyonds.netlify.app");
+header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
 
@@ -16,8 +16,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 $adminEmails = [
-    "vinuradesilva1@gmail.com",
-    "vinuradesilva1@gmail.com"
+    "dumidu.kodithuwakku@ebeyonds.com",
+    "prabhath.senadheera@ebeyonds.com"
 ];
 
 $rawData = file_get_contents("php://input");
@@ -30,10 +30,27 @@ $phone = trim($input['phone'] ?? '');
 $comments = trim($input['comments'] ?? '');
 
 $errors = [];
-if ($firstName === '') $errors[] = 'First Name is required.';
-if ($lastName === '') $errors[] = 'Last Name is required.';
-if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) $errors[] = 'Valid Email is required.';
-if ($comments === '') $errors[] = 'Comments are required.';
+
+if ($firstName === '') {
+    $errors[] = 'First Name is required.';
+}
+
+if ($lastName === '') {
+    $errors[] = 'Last Name is required.';
+}
+
+if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $errors[] = 'Valid Email is required.';
+}
+
+if ($comments === '') {
+    $errors[] = 'Comments are required.';
+}
+
+if ($phone !== '' && !preg_match('/^\d+$/', $phone)) {
+    $errors[] = 'Phone number must contain only digits.';
+}
+
 
 if (!empty($errors)) {
     http_response_code(400);

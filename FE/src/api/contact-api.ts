@@ -4,7 +4,7 @@ import type { ContactFormData, ContactResponse } from "../utils/interfaces";
 export async function submitContactForm(
   formData: ContactFormData
 ): Promise<ContactResponse> {
-  const response = await fetch(`${BASE_URL}/get_saved_shows.php`, {
+  const response = await fetch(`${BASE_URL}/contact_form.php`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(formData),

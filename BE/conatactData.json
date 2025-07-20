@@ -1,26 +1,26 @@
 [
     {
-        "firstName": "Arizona",
+        "firstName": "Vinura",
         "lastName": "de Silva",
         "email": "vinura@gmail.com",
-        "phone": "0715647794",
-        "comments": "sdfsfsdf",
-        "submittedAt": "2025-07-20 14:20:53"
+        "phone": "0781234567",
+        "comments": "Test message",
+        "submittedAt": "2025-07-20 17:03:54"
     },
     {
         "firstName": "Vinura",
         "lastName": "de Silva",
         "email": "vinura@gmail.com",
-        "phone": "3423432432",
-        "comments": "dsfsdf",
-        "submittedAt": "2025-07-20 14:40:17"
+        "phone": "0781234567",
+        "comments": "Test contact form",
+        "submittedAt": "2025-07-20 17:17:48"
     },
     {
-        "firstName": "Arizona",
+        "firstName": "Vinura",
         "lastName": "de Silva",
-        "email": "isuru@gmail.com",
-        "phone": "3423432432",
-        "comments": "sdfsfsf",
-        "submittedAt": "2025-07-20 14:40:54"
+        "email": "vinura@gmail.com",
+        "phone": "0781234567",
+        "comments": "Test message from contact us form",
+        "submittedAt": "2025-07-20 17:19:00"
     }
 ]
